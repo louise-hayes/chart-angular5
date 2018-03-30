@@ -1,6 +1,33 @@
 # chart-angular5
+Test version. 
+Not for download, do not want to unpublish as need the package name to be useable. 
+working version coming soon.
+To install:
+npm install chart-angular5
+
+edit app.module.ts
+import { ChartModule } from 'chart-angular5';
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    ChartModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+Add <app-chart></app-chart> to app.component.html
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+
 
 ## Development server
 
