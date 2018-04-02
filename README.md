@@ -7,7 +7,7 @@ npm install chart-angular5
 
 # edit app.module.ts
 
-`import { ChartModule } from 'chart-angular5';`
+`import { ChartModule } from 'chart-angular5/src/app/modules/chart/chart.module';`
 
 ```
 @NgModule({
