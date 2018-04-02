@@ -1,8 +1,8 @@
 # chart-angular5
 
-Test version and not for download as working version coming soon.
+Test version - working version coming soon.
 
-# To install:
+# To install as npm package
 npm install chart-angular5
 
 edit app.module.ts
@@ -21,6 +21,9 @@ import { ChartModule } from 'chart-angular5';
 export class AppModule { }
 
 Add <app-chart></app-chart> to app.component.html
+
+# To install as git plugin 
+add the below line to package.json
 
 
 # Git:
