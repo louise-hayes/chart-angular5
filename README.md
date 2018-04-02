@@ -9,7 +9,8 @@ npm install chart-angular5
 
 `import { ChartModule } from 'chart-angular5';`
 
-```@NgModule({
+```
+@NgModule({
   declarations: [
     AppComponent
   ],
@@ -20,7 +21,8 @@ npm install chart-angular5
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }```
+export class AppModule { }
+```
 
 # Add the chart module to app.component.html (or any component.html)
 
